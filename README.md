@@ -86,7 +86,7 @@ automation experiments, API tests, dashboards, and workflow helpers.
 
 ### 🧪 Experience
 **Research Analyst Intern — Review.AI**  
-Working on auditing workflows, improving internal automation, documentation, and small data-related tasks.
+Working on internal automation workflows, auditing AI tools, documentation, and small data-related tasks.
 
 **Cyber Peace Foundation**  
 Short internship focused on cybersecurity awareness.
