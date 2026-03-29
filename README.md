@@ -85,31 +85,27 @@ automation experiments, API tests, dashboards, and workflow helpers.
 ---
 
 ### 🧪 Experience
-**Research Analyst Intern — Review.AI**  
-Working on internal automation workflows, auditing AI tools, documentation, and small data-related tasks.
-
-**Cyber Peace Foundation**  
-Short internship focused on cybersecurity awareness.
-
+**Research Analyst Intern — Review.AI ~ 10th Oct - 10th Jan **  
+**Associate Data Analyst Intern — Review.AI ~ 10th Jan - 10th Feb **  
+Worked on internal automation workflows (mainly using streamlit), auditing AI tools, documentation, and data-related tasks.
 ---
 
 ### 🔧 Skills
 **Data & Analysis:**  
-Pandas · Excel · Google Sheets · Basic SQL  
+Pandas · Excel · Google Sheets · MySQL   
 
 **Programming:**  
 Python · API Integration · JSON Handling  
 
 **Tech Tools:**  
-Flask · Streamlit · GitHub · Markdown  
+Flask · Streamlit · GitHub · Git · FastAPI · Jupyter/ Colab
 
 ---
 
 ### 🎯 Goals
-- Build stronger data analysis & visualization projects  
-- Improve reporting and insight communication  
-- Learn beginner machine learning concepts  
-- Apply for opportunities in data analysis & data science  
+- Build stronger data science projects  
+- Improve reporting and insight communication   
+- Apply for opportunities in data analysis, data science & ML 
 
 ---
 
