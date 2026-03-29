@@ -85,8 +85,8 @@ automation experiments, API tests, dashboards, and workflow helpers.
 ---
 
 ### 🧪 Experience
-**Research Analyst Intern — Review.AI ~ 10th Oct - 10th Jan **  
-**Associate Data Analyst Intern — Review.AI ~ 10th Jan - 10th Feb **  
+**Research Analyst Intern — Review.AI ~ 10th Oct - 10th Jan**  
+**Associate Data Analyst Intern — Review.AI ~ 10th Jan - 10th Feb**  
 Worked on internal automation workflows (mainly using streamlit), auditing AI tools, documentation, and data-related tasks.
 ---
 
