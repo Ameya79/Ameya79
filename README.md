@@ -18,9 +18,6 @@
   <a href="https://thefreeuniversity.space">
     <img src="https://img.shields.io/badge/The Free University-000000?logo=vercel&logoColor=white&style=for-the-badge"/>
   </a>
-    <a href="https://mustel.netlify.app/">
-    <img src="https://mustel.netlify.app/mustel.png"/>
-  </a>
 </p>
 
 ---
