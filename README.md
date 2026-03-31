@@ -1,113 +1,108 @@
-<h1 align="center">Hi, I'm Ameya 👋</h1>
+<h1 align="center">Hey, I'm Ameya 👋</h1>
+
 <p align="center">
-  <b>Aspiring Data Analyst</b> with an interest in <b>Data Science</b>, learning through practical projects and hands-on problem solving.
+  <b>IT Undergraduate · ML Enthusiast · Data Science & AI Builder</b><br/>
+  Building at the intersection of data, machine learning, and developer tooling.
 </p>
 
----
-
-### 🔖 Badges & Profiles
-
 <p align="center">
-
-  <!-- Core Skills -->
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SQL-336791?logo=mysql&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white&style=for-the-badge"/>
-
-  <!-- Tools -->
-  <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge"/>
-
-  <!-- HackerRank -->
-  <a href="https://share.google.com/Ri3daNNeXPntRHtDN">
-    <img src="https://img.shields.io/badge/HackerRank-Python%20★★★★★-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-  </a>
-
-  <!-- LinkedIn -->
   <a href="https://linkedin.com/in/ameya-kulkarni-a31b74246">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge"/>
   </a>
-
+  <a href="mailto:ameyakulkarnialt@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/Ameya79">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge"/>
+  </a>
+  <a href="https://thefreeuniversity.space">
+    <img src="https://img.shields.io/badge/The Free University-000000?logo=vercel&logoColor=white&style=for-the-badge"/>
+  </a>
 </p>
 
 ---
 
-### 📚 About Me
-I’m an IT undergraduate who enjoys exploring data, understanding patterns, and building small tools that solve focused problems.  
-My main interest is growing in **data analysis** and slowly learning **data science fundamentals**.  
-I also work with Flask and Streamlit when a project needs a simple interface or automation workflow.
+### 🧠 About Me
 
-I prefer small, incremental progress over big jumps — learning by building one step at a time.
+I'm an IT undergraduate (B.E., Mumbai University — CGPA 9.21) exploring machine learning, AI, and data science through real projects and internships.
 
----
-
-### 🧠 Current Learning Path
-- Data cleaning & preparation (Pandas, Excel)
-- Basic SQL for analysis
-- Visualization fundamentals
-- API-based data collection
-- Structuring mini-projects with Flask & Streamlit
-- Early concepts in data science and ML  
+- 🔬 Interned as a **Data Analyst at Review.AI** (IIM Bangalore NSRCEL-incubated) — built internal automation tools, audited 50+ AI tools, and led quality validation workflows
+- 📦 Published **[Mustel](https://pypi.org/project/mustel)** — an open-source Python CLI tool on PyPI for diagnosing dependency and interpreter conflicts
+- 🌍 Founded **[The Free University](https://thefreeuniversity.space)** — an SEO-optimized educational platform that grew to **90,000+ visits**
+- 🏆 Qualified for **Mumbai Hacks 2025** — India's largest agentic AI hackathon (HealthTech track)
+- 🧩 Currently a **Problem Setter** at Shastra Coding Club, TCET
 
 ---
 
-## 📌 Projects
+### 🛠️ Tech Stack
 
-### **📊 OTPYRC — Cryptocurrency Tracker**
-Live crypto data, sparkline charts, and structured tables powered by CoinGecko API.  
-**Tech:** Python · Streamlit · Pandas
+**Machine Learning & AI**
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=flat-square)
+![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?logo=openai&logoColor=white&style=flat-square)
+![Gemini API](https://img.shields.io/badge/Gemini_API-4285F4?logo=google&logoColor=white&style=flat-square)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FF6F00?style=flat-square)
 
----
+**Data Analysis & Visualization**
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=flat-square)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white&style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-336791?logo=mysql&logoColor=white&style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=flat-square)
 
-### **🗜️ Squeezy — Image Compressor & PDF Tool**
-Compress images, convert to PDF, and handle files cleanly.  
-**Tech:** Python · Streamlit
-
----
-
-### **🌤️ Weatherly — Real-time Weather App**
-Weather lookups with clean API integration.  
-**Tech:** Python · Streamlit
-
----
-
-### **💰 Expense Tracker**
-A simple expense management system built using Flask and Pandas.  
-**Tech:** Flask · Pandas · HTML
+**Development & Tools**
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=flat-square)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat-square)
+![Cursor](https://img.shields.io/badge/Cursor_IDE-000000?style=flat-square)
+![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white&style=flat-square)
 
 ---
 
-### **🔍 Internal Utilities & Experiments**
-Small scripts and prototypes made while learning or exploring:  
-automation experiments, API tests, dashboards, and workflow helpers.
+### 📌 Featured Projects
+
+| Project | Description | Stack |
+|---|---|---|
+| [🔧 Mustel](https://pypi.org/project/mustel) | CLI tool to diagnose Python dependency & interpreter conflicts. Published on PyPI. | Python, PyPI |
+| [📊 OTPYRC](https://otpyrc-nk2aaqlrygxj9csfucsgsr.streamlit.app) | Live crypto price tracker with 7-day sparkline charts & CoinGecko API | Python, Streamlit, Pandas |
+| [🗜️ Squeezy](https://squeezy-image-compressor.onrender.com) | Image compressor & PDF merger with in-memory file handling and UUID-based downloads | Flask, Pillow, Bootstrap |
+| [🌤️ Weatherly](https://weatherly-smzufohbhuex5grhcavnd4.streamlit.app) | Real-time weather app with WeatherAPI integration | Python, Streamlit |
+| [💰 Expense Tracker](https://expense-trakcer-bcze.onrender.com/add) | Expense management system with CSV storage, category filters & download | Flask, Pandas, HTML |
+| [🎮 Steam EDA](https://github.com/Ameya79) | Exploratory data analysis on 500-row Steam dataset — pricing & playtime insights | Python, Pandas, Matplotlib |
 
 ---
 
-### 🧪 Experience
-**Research Analyst Intern — Review.AI ~ 10th Oct - 10th Jan**  
-**Associate Data Analyst Intern — Review.AI ~ 10th Jan - 10th Feb**  
-Worked on internal automation workflows (mainly using streamlit), auditing AI tools, documentation, and data-related tasks.
----
+### 💼 Experience
 
-### 🔧 Skills
-**Data & Analysis:**  
-Pandas · Excel · Google Sheets · MySQL   
+**Associate Data Analyst Intern — Review.AI, CoreLayer Labs Pvt. Ltd.** *(Jan 2025 – Feb 2025)*
+- Led quality validation for AI tool evaluations during team scaling
+- Built a **Streamlit Status Code Dashboard** for real-time team progress and workload visibility
+- Standardized onboarding processes and cross-collaborated with product & research teams
 
-**Programming:**  
-Python · API Integration · JSON Handling  
-
-**Tech Tools:**  
-Flask · Streamlit · GitHub · Git · FastAPI · Jupyter/ Colab
+**Research Analyst Intern — Review.AI, CoreLayer Labs Pvt. Ltd.** *(Oct 2024 – Jan 2025)*
+- Researched and documented **50+ AI tools** into a structured internal knowledge base
+- Built a **Web Analyzer automation tool** (Streamlit) that reduced manual research time by ~20%
+- Identified patterns from evaluations to support internal product decision-making
 
 ---
 
-### 🎯 Goals
-- Build stronger data science projects  
-- Improve reporting and insight communication   
-- Apply for opportunities in data analysis, data science & ML 
+### 🏗️ What I'm Building Towards
+
+- Stronger ML project portfolio (predictive models, NLP, and data pipelines)
+- Deeper understanding of model evaluation, feature engineering, and experimentation
+- Applying for roles in **Data Science, ML Engineering, and Data Analysis**
 
 ---
 
-### 🌐 Connect
-<a href="mailto:ameyakulkarnialt@gmail.com">Email</a> · <a href="https://linkedin.com/in/ameya-kulkarni-a31b74246">LinkedIn</a>
+### 📜 Certifications
+
+- 🎓 **Elements of AI** — University of Helsinki & MinnaLearn (2025)
+- ☁️ **AWS Solutions Architecture** — Forage Virtual Experience (2025)
+- 🔐 **Mastercard Cybersecurity Research** — Forage Virtual Experience (2025)
+- 📊 **Accenture Data Analytics** — Forage Virtual Experience (2024)
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ameya79&show_icons=true&theme=tokyonight&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ameya79&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+</p>
