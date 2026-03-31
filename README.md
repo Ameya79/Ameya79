@@ -18,6 +18,9 @@
   <a href="https://thefreeuniversity.space">
     <img src="https://img.shields.io/badge/The Free University-000000?logo=vercel&logoColor=white&style=for-the-badge"/>
   </a>
+    <a href="https://mustel.netlify.app/">
+    <img src="https://mustel.netlify.app/mustel.png"/>
+  </a>
 </p>
 
 ---
@@ -101,8 +104,3 @@ I'm an IT undergraduate (B.E., Mumbai University — CGPA 9.21) exploring machin
 - 📊 **Accenture Data Analytics** — Forage Virtual Experience (2024)
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ameya79&show_icons=true&theme=tokyonight&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ameya79&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
-</p>
