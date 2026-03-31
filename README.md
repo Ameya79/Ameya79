@@ -27,7 +27,7 @@
 I'm an IT undergraduate (B.E., Mumbai University — CGPA 9.21) exploring machine learning, AI, and data science through real projects and internships.
 
 - 🔬 Interned as a **Data Analyst at Review.AI** (IIM Bangalore NSRCEL-incubated) — built internal automation tools, audited 50+ AI tools, and led quality validation workflows
-- 📦 Published **[Mustel](https://pypi.org/project/mustel)** — an open-source Python CLI tool on PyPI for diagnosing dependency and interpreter conflicts
+- 📦 Published **[Mustel](https://pypi.org/project/mustel)** — a planned to be open-source Python CLI tool on PyPI for diagnosing dependency and interpreter conflicts
 - 🌍 Founded **[The Free University](https://thefreeuniversity.space)** — an SEO-optimized educational platform that grew to **90,000+ visits**
 - 🏆 Qualified for **Mumbai Hacks 2025** — India's largest agentic AI hackathon (HealthTech track)
 - 🧩 Currently a **Problem Setter** at Shastra Coding Club, TCET
