@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝
 ```
 
-**Python Backend Developer · Open-Source Builder · TCET IT '28**
+**Python Developer · Open-Source Builder · TCET IT '28**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ameya-kulkarni-a31b74246)
 [![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/mustel)
