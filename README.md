@@ -72,6 +72,32 @@ mustel run --mcp    # MCP server mode for agent integration
 
 ---
 
+### [Driftwood](https://driftwood-docs.vercel.app/docs) &nbsp;·&nbsp; [repo](https://github.com/Ameya79/Driftwood)
+
+> Monte Carlo stock price simulation engine — stateless REST API
+
+- Simulates future price paths using Geometric Brownian Motion (GBM)
+- FastAPI backend with vectorized NumPy compute — 1,000 paths in milliseconds
+- Rate limiting + Docker Compose full stack (backend, frontend, worker)
+- Free, zero-auth — drop the endpoint directly into any dashboard or app
+
+---
+
+### [rollit](https://rollit-website.vercel.app) &nbsp;·&nbsp; `pip install rollit`
+
+> Rolling window statistics for NumPy arrays. No pandas needed.
+
+- `mean`, `std`, `sum`, `min`, `max`, `zscore`, `normalize`, `apply` — one consistent API
+- Uses `numpy.lib.stride_tricks` for zero-copy memory views — no data duplication
+- Handles missing data via `min_periods`, raises clear errors on bad input
+- Published on PyPI with CI, full docs site, CHANGELOG, CONTRIBUTING
+
+[![PyPI Version](https://img.shields.io/pypi/v/rollit?style=flat-square&color=3775A9)](https://pypi.org/project/rollit)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/rollit?style=flat-square&label=monthly%20downloads&color=3775A9)](https://pypi.org/project/rollit)
+[![CI](https://github.com/Ameya79/rollit/actions/workflows/ci.yml/badge.svg)](https://github.com/Ameya79/rollit/actions/workflows/ci.yml)
+
+---
+
 ### [The Free University](https://thefreeuniversity.space)
 
 > Free course aggregator built and SEO-optimized from scratch
