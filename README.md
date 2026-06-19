@@ -23,9 +23,9 @@
 ## What's going on
 
 - Building a **Next.js AI Literacy Portal** at TCET Centre of Excellence and internal automation tools in Python (May 2026)
-- **AI Systems Evaluation Intern** at AirDawg Labs — creating and refining tasks used to train large language models on Snorkel, deployed for OpenAI and Anthropic (Jun 2026)
-- Maintaining **[Mustel](https://pypi.org/project/mustel)** — a Python CLI + MCP server with 2,100+ PyPI downloads
-- Founded **[The Free University](https://thefreeuniversity.space)** — 90,000+ lifetime visits, 1,000+ LinkedIn followers
+- **AI Systems Evaluation Intern** at AirDawg Labs, creating and refining tasks used to train large language models on Snorkel, deployed for OpenAI and Anthropic (Jun 2026)
+- Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI + MCP server with 2,100+ PyPI downloads
+- Founded **[The Free University](https://thefreeuniversity.space)** with 90,000+ lifetime visits and 1,000+ LinkedIn followers
 
 ---
 
@@ -36,7 +36,7 @@
 > Static analysis pre-processing layer for AI coding agents (Cursor, Claude Code, Windsurf)
 
 - Orchestrates 4 engines: Ruff, Bandit, pip-audit, 21 custom YAML patterns
-- Outputs a normalized JSON report — eliminates AI-hallucinated bug reports
+- Outputs a normalized JSON report, eliminates AI-hallucinated bug reports
 - Cuts LLM output token usage by ~45% per review cycle
 - Published on PyPI with MCP server support
 
@@ -65,7 +65,7 @@ mustel run --mcp    # MCP server mode for agent integration
 
 > Flask image compressor and PDF merger
 
-- In-memory BytesIO file handling — no disk writes
+- In-memory BytesIO file handling, no disk writes
 - UUID-based download tokens for safe concurrent requests
 - Image compression, resize by percentage, multi-image PDF merge
 - Deployed on Render
@@ -74,12 +74,12 @@ mustel run --mcp    # MCP server mode for agent integration
 
 ### [Driftwood](https://driftwood-docs.vercel.app/docs) &nbsp;·&nbsp; [repo](https://github.com/Ameya79/Driftwood)
 
-> Monte Carlo stock price simulation engine — stateless REST API
+> Monte Carlo stock price simulation engine. Stateless REST API.
 
 - Simulates future price paths using Geometric Brownian Motion (GBM)
-- FastAPI backend with vectorized NumPy compute — 1,000 paths in milliseconds
+- FastAPI backend with vectorized NumPy compute, 1,000 paths in milliseconds
 - Rate limiting + Docker Compose full stack (backend, frontend, worker)
-- Free, zero-auth — drop the endpoint directly into any dashboard or app
+- Free and zero-auth; drop the endpoint directly into any dashboard or app
 
 ---
 
@@ -87,8 +87,8 @@ mustel run --mcp    # MCP server mode for agent integration
 
 > Rolling window statistics for NumPy arrays. No pandas needed.
 
-- `mean`, `std`, `sum`, `min`, `max`, `zscore`, `normalize`, `apply` — one consistent API
-- Uses `numpy.lib.stride_tricks` for zero-copy memory views — no data duplication
+- `mean`, `std`, `sum`, `min`, `max`, `zscore`, `normalize`, `apply` with one consistent API
+- Uses `numpy.lib.stride_tricks` for zero-copy memory views, no data duplication
 - Handles missing data via `min_periods`, raises clear errors on bad input
 - Published on PyPI with CI, full docs site, CHANGELOG, CONTRIBUTING
 
@@ -104,14 +104,14 @@ mustel run --mcp    # MCP server mode for agent integration
 
 - 90,000+ lifetime visits
 - 1,000+ LinkedIn followers
-- Organically grown — zero paid promotion
+- Organically grown, zero paid promotion
 
 ---
 
 ## Internships
 
 **AI Systems Evaluation Intern · AirDawg Labs** *(Jun 2026 – Present)*
-Creating and refining RLHF tasks to evaluate and train large language models. Working end-to-end on the task lifecycle — ideation to final submission on Snorkel — used to improve models for OpenAI and Anthropic. Ubuntu / WSL, Docker.
+Creating and refining RLHF tasks to evaluate and train large language models. Working end-to-end on the task lifecycle from ideation to final submission on Snorkel, used to improve models for OpenAI and Anthropic. Ubuntu / WSL, Docker.
 
 **Software Intern · TCET Centre of Excellence** *(May 2026 – Present)*
 Contributing to a Next.js web portal for AI literacy training. Building Python-based internal automation tools.
@@ -137,8 +137,8 @@ Built an LLM-powered product-page scraper cutting manual review time by 75%. Bui
 
 ## Highlights
 
-- Problem Setter · Shastra Coding Club, TCET — designs and validates test cases for T&P coding assessments
-- Mumbai Hacks 2025 — built LifeLink (AI organ donation platform), qualified for Round 2 offline of India's largest agentic AI hackathon (HealthTech track)
+- Problem Setter · Shastra Coding Club, TCET. Designs and validates test cases for T&P coding assessments
+- Mumbai Hacks 2025. Built LifeLink (AI organ donation platform), qualified for Round 2 offline of India's largest agentic AI hackathon (HealthTech track)
 - CGPA 9.21 / 10 · B.E. Information Technology, Mumbai University
 
 ---
