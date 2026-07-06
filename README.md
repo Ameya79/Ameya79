@@ -43,7 +43,7 @@ currently: building in public · shipping real tools · two internships deep
 
 ### [Mustel](https://pypi.org/project/mustel) &nbsp;·&nbsp; `pip install mustel` &nbsp;·&nbsp; [mustel.vercel.app](https://mustel.vercel.app)
 
-> Static analysis layer for AI coding agents (Cursor, Claude Code, Windsurf)
+![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=8B9EC7&center=false&vCenter=true&width=650&height=30&lines=Static+analysis+layer+for+AI+coding+agents+%28Cursor%2C+Claude+Code%2C+Windsurf%29)
 
 - Orchestrates 4 engines: Ruff, Bandit, pip-audit, 21 custom YAML patterns
 - Outputs a normalized JSON report, eliminates AI-hallucinated bug reports
@@ -62,7 +62,7 @@ mustel run --mcp    # MCP server mode
 
 ### [Lazy Footers](https://lazy-footers.vercel.app) &nbsp;·&nbsp; ~100 weekly users
 
-> FastAPI service for bulk PDF and DOCX footer stamping
+![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=8B9EC7&center=false&vCenter=true&width=550&height=30&lines=FastAPI+service+for+bulk+PDF+and+DOCX+footer+stamping)
 
 - Handles up to 10 concurrent uploads
 - Per-page and per-section footer editing
@@ -73,7 +73,7 @@ mustel run --mcp    # MCP server mode
 
 ### [Squeezy](https://squeezy-image-compressor.onrender.com) &nbsp;·&nbsp; [repo](https://github.com/Ameya79/Squeezy-Image-Compressor)
 
-> Flask image compressor and PDF merger
+![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=8B9EC7&center=false&vCenter=true&width=450&height=30&lines=Flask+image+compressor+and+PDF+merger)
 
 - In-memory BytesIO file handling, no disk writes
 - UUID-based download tokens for safe concurrent requests
@@ -84,7 +84,7 @@ mustel run --mcp    # MCP server mode
 
 ### [Driftwood](https://driftwood-docs.vercel.app/docs) &nbsp;·&nbsp; [repo](https://github.com/Ameya79/Driftwood)
 
-> Monte Carlo stock price simulation engine. Stateless REST API.
+![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=8B9EC7&center=false&vCenter=true&width=600&height=30&lines=Monte+Carlo+stock+price+simulation+engine.+Stateless+REST+API.)
 
 - Simulates future price paths using Geometric Brownian Motion (GBM)
 - FastAPI backend with vectorized NumPy compute, 1,000 paths in milliseconds
@@ -95,7 +95,7 @@ mustel run --mcp    # MCP server mode
 
 ### [rollit](https://rollit-website.vercel.app) &nbsp;·&nbsp; `pip install rollit` &nbsp;·&nbsp; [repo](https://github.com/Ameya79/rollit) &nbsp;·&nbsp; [pypi](https://pypi.org/project/rollit/)
 
-> Rolling window statistics for NumPy arrays. No pandas needed.
+![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=8B9EC7&center=false&vCenter=true&width=600&height=30&lines=Rolling+window+statistics+for+NumPy+arrays.+No+pandas+needed.)
 
 - `mean`, `std`, `sum`, `min`, `max`, `zscore`, `normalize`, `apply` with one consistent API
 - Uses `numpy.lib.stride_tricks` for zero-copy memory views, no data duplication
@@ -110,7 +110,7 @@ mustel run --mcp    # MCP server mode
 
 ### [The Free University](https://thefreeuniversity.space)
 
-> Free course aggregator built and SEO-optimized from scratch
+![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=8B9EC7&center=false&vCenter=true&width=550&height=30&lines=Free+course+aggregator+built+and+SEO-optimized+from+scratch)
 
 - 90,000+ lifetime visits
 - 1,000+ LinkedIn followers
@@ -141,8 +141,10 @@ Built an LLM-powered product-page scraper cutting manual review time by 75%. Bui
 <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=Ameya79&theme=tokyonight&hide_border=true&fire=8B9EC7&currStreakLabel=8B9EC7" height="160" alt="github streak stats" />
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ameya79&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="160" alt="top languages" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=python,js,ts,fastapi,flask,nextjs,docker,git,mysql&theme=dark" height="50" alt="tech icons" />
 
 </div>
 
@@ -158,8 +160,10 @@ Built an LLM-powered product-page scraper cutting manual review time by 75%. Bui
 
 <div align="center">
 
-[![Contribution Snake](https://raw.githubusercontent.com/Ameya79/Ameya79/output/github-contribution-grid-snake-dark.svg)](https://github.com/Ameya79)
+<img src="https://ghchart.rshah.org/8B9EC7/Ameya79" alt="Ameya79's github contribution chart" width="100%" />
 
-*Mumbai · open to backend and LLM internship opportunities*
+<br/><br/>
+
+*Mumbai · open to opportunities*
 
 </div>
