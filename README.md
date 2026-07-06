@@ -17,8 +17,6 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ameyakulkarnialt@gmail.com)
 &nbsp;
 [![The Free University](https://img.shields.io/badge/The_Free_University-000000?style=flat-square&logo=vercel&logoColor=white)](https://thefreeuniversity.space)
-&nbsp;
-[![Profile Views](https://komarev.com/ghpvc/?username=Ameya79&style=flat-square&color=8B9EC7&label=views)](https://github.com/Ameya79)
 
 </div>
 
@@ -138,40 +136,13 @@ Built an LLM-powered product-page scraper cutting manual review time by 75%. Bui
 
 <br/>
 
-## 📊 github stats
+## 📊 activity
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Ameya79&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide=prs" />
+<img src="https://streak-stats.demolab.com?user=Ameya79&theme=tokyonight&hide_border=true&fire=8B9EC7&currStreakLabel=8B9EC7" height="160" alt="github streak stats" />
 &nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ameya79&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-
-</div>
-
-<br/>
-
-## 🧰 stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ameya79&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="160" alt="top languages" />
 
 </div>
 
