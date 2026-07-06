@@ -158,12 +158,6 @@ Built an LLM-powered product-page scraper cutting manual review time by 75%. Bui
 
 <br/>
 
-<div align="center">
-
-<img src="https://ghchart.rshah.org/8B9EC7/Ameya79" alt="Ameya79's github contribution chart" width="100%" />
-
-<br/><br/>
-
 *Mumbai · open to opportunities*
 
 </div>
