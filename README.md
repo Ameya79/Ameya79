@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=""C:\Users\AK\Downloads\ChatGPT Image Jul 6, 2026, 10_12_09 PM.png"" width="100%" alt="ameya banner" />
+<img src="https://chatgpt.com/backend-api/estuary/content?id=file_000000007bf471faa1450abb904d6567&ts=495376&p=fs&cid=1&sig=45f6c21e2a8079d8637d032bd037d710ec83299b86ddc8a7d78dff8296ae2575&v=0" width="100%" alt="ameya banner" />
 
 <br/>
 
