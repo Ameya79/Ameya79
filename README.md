@@ -1,13 +1,6 @@
 <div align="center">
 
-```
-█████╗ ███╗   ███╗███████╗██╗   ██╗ █████╗
-██╔══██╗████╗ ████║██╔════╝╚██╗ ██╔╝██╔══██╗
-███████║██╔████╔██║█████╗   ╚████╔╝ ███████║
-██╔══██║██║╚██╔╝██║██╔══╝    ╚██╔╝  ██╔══██║
-██║  ██║██║ ╚═╝ ██║███████╗   ██║   ██║  ██║
-╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝
-```
+![ameya banner](https://raw.githubusercontent.com/Ameya79/Ameya79/main/banner.png)
 
 **Python Developer · Open-Source Builder · TCET IT '28**
 
@@ -23,26 +16,26 @@
 ## What's going on
 
 - Building a **Next.js AI Literacy Portal** at TCET Centre of Excellence and internal automation tools in Python (May 2026)
-- **AI Systems Evaluation Intern** at AirDawg Labs, creating and refining tasks used to train large language models on Snorkel, deployed for OpenAI and Anthropic (Jun 2026)
-- Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI + MCP server with 2,100+ PyPI downloads
+- **AI Systems Evaluation Intern** at AirDawg Labs on Project Terminus-2nd-Edition by Snorkel AI, reviewing and submitting benchmark tasks used to train frontier models for OpenAI and Anthropic (Jun 2026)
+- Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI + MCP server with 4,400+ PyPI downloads
 - Founded **[The Free University](https://thefreeuniversity.space)** with 90,000+ lifetime visits and 1,000+ LinkedIn followers
 
 ---
 
 ## Featured Work
 
-### [Mustel](https://pypi.org/project/mustel) &nbsp;·&nbsp; `pip install mustel`
+### [Mustel](https://pypi.org/project/mustel) &nbsp;·&nbsp; `pip install mustel` &nbsp;·&nbsp; [mustel.vercel.app](https://mustel.vercel.app)
 
-> Static analysis pre-processing layer for AI coding agents (Cursor, Claude Code, Windsurf)
+> Static analysis layer for AI coding agents (Cursor, Claude Code, Windsurf)
 
 - Orchestrates 4 engines: Ruff, Bandit, pip-audit, 21 custom YAML patterns
 - Outputs a normalized JSON report, eliminates AI-hallucinated bug reports
 - Cuts LLM output token usage by ~45% per review cycle
-- Published on PyPI with MCP server support
+- MCP server mode for direct agent integration
 
 ```bash
 mustel run          # full analysis
-mustel run --mcp    # MCP server mode for agent integration
+mustel run --mcp    # MCP server mode
 ```
 
 [![PyPI Downloads](https://img.shields.io/pypi/dm/mustel?style=flat-square&label=monthly%20downloads&color=3775A9)](https://pypi.org/project/mustel)
@@ -83,14 +76,14 @@ mustel run --mcp    # MCP server mode for agent integration
 
 ---
 
-### [rollit](https://rollit-website.vercel.app) &nbsp;·&nbsp; `pip install rollit`
+### [rollit](https://rollit-website.vercel.app) &nbsp;·&nbsp; `pip install rollit` &nbsp;·&nbsp; [repo](https://github.com/Ameya79/rollit) &nbsp;·&nbsp; [pypi](https://pypi.org/project/rollit/)
 
 > Rolling window statistics for NumPy arrays. No pandas needed.
 
 - `mean`, `std`, `sum`, `min`, `max`, `zscore`, `normalize`, `apply` with one consistent API
 - Uses `numpy.lib.stride_tricks` for zero-copy memory views, no data duplication
 - Handles missing data via `min_periods`, raises clear errors on bad input
-- Published on PyPI with CI, full docs site, CHANGELOG, CONTRIBUTING
+- 700+ PyPI downloads, CI via GitHub Actions, full docs site
 
 [![PyPI Version](https://img.shields.io/pypi/v/rollit?style=flat-square&color=3775A9)](https://pypi.org/project/rollit)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/rollit?style=flat-square&label=monthly%20downloads&color=3775A9)](https://pypi.org/project/rollit)
@@ -111,7 +104,7 @@ mustel run --mcp    # MCP server mode for agent integration
 ## Internships
 
 **AI Systems Evaluation Intern · AirDawg Labs** *(Jun 2026 – Present)*
-Creating and refining RLHF tasks to evaluate and train large language models. Working end-to-end on the task lifecycle from ideation to final submission on Snorkel, used to improve models for OpenAI and Anthropic. Ubuntu / WSL, Docker.
+Working on Project Terminus-2nd-Edition by Snorkel AI. Reviews AI coding agent benchmark tasks for instruction clarity, test alignment, rubric quality, metadata correctness, Docker/base image compliance, and solution leakage risks. Evaluates full task submissions by inspecting task environments, verifier reports, Dockerfiles, `task.toml`, and oracle solutions before making Accept / Needs Revision decisions. Also contributed as a task submitter before moving to the reviewer side. Ubuntu / WSL, Docker, Python.
 
 **Software Intern · TCET Centre of Excellence** *(May 2026 – Present)*
 Contributing to a Next.js web portal for AI literacy training. Building Python-based internal automation tools.
