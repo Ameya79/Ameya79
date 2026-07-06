@@ -1,13 +1,26 @@
 <div align="center">
 
-![ameya banner](https://raw.githubusercontent.com/Ameya79/Ameya79/main/banner.png)
+<img src=""C:\Users\AK\Downloads\ChatGPT Image Jul 6, 2026, 10_12_09 PM.png"" width="100%" alt="ameya banner" />
 
-**Python Developer · Open-Source Builder · TCET IT '28**
+<br/>
+
+# Ameya Kulkarni
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=8B9EC7&center=true&vCenter=true&width=500&lines=Python+Developer+%26+Open-Source+Builder;Maintainer+%40+Mustel+%E2%80%A2+4%2C400%2B+PyPI+Downloads;AI+Systems+Evaluation+%40+AirDawg+Labs;TCET+Information+Technology+%2728)](https://github.com/Ameya79)
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ameya-kulkarni-a31b74246)
+&nbsp;
 [![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/mustel)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ameyakulkarnialt@gmail.com)
-[![The Free University](https://img.shields.io/badge/TFU-000000?style=flat-square&logo=vercel&logoColor=white)](https://thefreeuniversity.space)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ameyakulkarnialt@gmail.com)
+&nbsp;
+[![The Free University](https://img.shields.io/badge/The_Free_University-000000?style=flat-square&logo=vercel&logoColor=white)](https://thefreeuniversity.space)
+&nbsp;
+[![Profile Views](https://komarev.com/ghpvc/?username=Ameya79&style=flat-square&color=8B9EC7&label=profile+views)](https://github.com/Ameya79)
+
+<br/>
 
 </div>
 
