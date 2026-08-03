@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ameya79/Ameya79/main/banner.png" width="100%" alt="banner" />
+<img src="https://raw.githubusercontent.com/Ameya79/Ameya79/main/ChatGPT Image Aug 3, 2026, 08_35_36 PM (1).png" width="100%" alt="banner" />
 
 <br/>
 
