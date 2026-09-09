@@ -23,7 +23,7 @@
 <br/>
 
 ```
-currently: building in public, shipping real tools, two internships deep
+currently: building in public, shipping real tools, software intern @ TCET CoE
 ```
 
 <br/>
@@ -31,7 +31,7 @@ currently: building in public, shipping real tools, two internships deep
 ## what's going on
 
 - Building a Next.js AI Literacy Portal at TCET Centre of Excellence and internal automation tools in Python (May 2026 – Present)
-- AI Systems Evaluation Intern at AirDawg Labs on Project Terminus-2nd-Edition by Snorkel AI, reviewed and submitted benchmark tasks used to train frontier models for OpenAI and Anthropic (Jun 2026 – Aug 2026)
+- Evaluated AI coding agent benchmark tasks for OpenAI & Anthropic models on Project Terminus-2nd-Edition by Snorkel AI at AirDawg Labs (Jun 2026 – Aug 2026)
 - Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI and MCP server with 5,000+ PyPI downloads
 - Founded **[The Free University](https://thefreeuniversity.space)** with 100,000+ lifetime visits and 1,000+ LinkedIn followers
 
