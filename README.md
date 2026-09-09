@@ -1,15 +1,3 @@
-Viewed README.md:1-37
-Viewed plan.md:1-255
-Searched for "Intern"
-Viewed page.tsx:1-800
-Viewed page.tsx:740-866
-Ran command: `git log -n 5 --stat`
-Ran command: `git show ad4e1081ca81d4c2807ad7396cab85d0e3f6e5c9`
-Ran command: `git show ce65215f70afb27f8a00a6aaf03e7788104508a2`
-
-Here is the updated README with all the latest experience updates, metrics, and tenure changes incorporated while preserving the exact layout, structure, and styling:
-
-```markdown
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Ameya79/Ameya79/main/banner.png" width="100%" alt="banner" />
@@ -175,4 +163,3 @@ Built an LLM-powered product-page scraper cutting manual review time by 75%. Bui
 *Mumbai · open to opportunities*
 
 </div>
-```
