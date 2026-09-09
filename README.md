@@ -1,3 +1,15 @@
+Viewed README.md:1-37
+Viewed plan.md:1-255
+Searched for "Intern"
+Viewed page.tsx:1-800
+Viewed page.tsx:740-866
+Ran command: `git log -n 5 --stat`
+Ran command: `git show ad4e1081ca81d4c2807ad7396cab85d0e3f6e5c9`
+Ran command: `git show ce65215f70afb27f8a00a6aaf03e7788104508a2`
+
+Here is the updated README with all the latest experience updates, metrics, and tenure changes incorporated while preserving the exact layout, structure, and styling:
+
+```markdown
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Ameya79/Ameya79/main/banner.png" width="100%" alt="banner" />
@@ -6,7 +18,7 @@
 
 # Ameya Kulkarni
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=8B9EC7&center=true&vCenter=true&width=520&lines=Python+Developer+%26+Open-Source+Builder;Maintainer+%40+Mustel+%C2%B7+4%2C400%2B+PyPI+Downloads;AI+Systems+Evaluation+%40+AirDawg+Labs;TCET+Information+Technology+%2728)](https://github.com/Ameya79)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=8B9EC7&center=true&vCenter=true&width=520&lines=Python+Developer+%26+Open-Source+Builder;Maintainer+%40+Mustel+%C2%B7+5%2C000%2B+PyPI+Downloads;AI+Systems+Evaluation+%40+AirDawg+Labs;TCET+Information+Technology+%2728)](https://github.com/Ameya79)
 
 <br/>
 
@@ -30,10 +42,10 @@ currently: building in public, shipping real tools, two internships deep
 
 ## what's going on
 
-- Building a Next.js AI Literacy Portal at TCET Centre of Excellence and internal automation tools in Python (May 2026)
-- AI Systems Evaluation Intern at AirDawg Labs on Project Terminus-2nd-Edition by Snorkel AI, reviewing and submitting benchmark tasks used to train frontier models for OpenAI and Anthropic (Jun 2026)
-- Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI and MCP server with 4,400+ PyPI downloads
-- Founded **[The Free University](https://thefreeuniversity.space)** with 90,000+ lifetime visits and 1,000+ LinkedIn followers
+- Building a Next.js AI Literacy Portal at TCET Centre of Excellence and internal automation tools in Python (May 2026 – Present)
+- AI Systems Evaluation Intern at AirDawg Labs on Project Terminus-2nd-Edition by Snorkel AI, reviewed and submitted benchmark tasks used to train frontier models for OpenAI and Anthropic (Jun 2026 – Aug 2026)
+- Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI and MCP server with 5,000+ PyPI downloads
+- Founded **[The Free University](https://thefreeuniversity.space)** with 100,000+ lifetime visits and 1,000+ LinkedIn followers
 
 <br/>
 
@@ -49,7 +61,7 @@ Non-AI static analysis layer for AI coding agents (Cursor, Claude Code, Windsurf
 [![PyPI](https://img.shields.io/pypi/v/mustel?style=flat-square&color=3775A9)](https://pypi.org/project/mustel)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/mustel-py/mustel/blob/main/LICENSE)
 
-- Orchestrates three engines (Ruff, Bandit, pip-audit) plus 20 custom YAML pattern files covering `subprocess`, `requests`, `flask`, `django`, `pickle`, `asyncio`, and more
+- Orchestrates three engines (Ruff, Bandit, pip-audit) plus 21 custom YAML pattern files covering `subprocess`, `requests`, `flask`, `django`, `pickle`, `asyncio`, and more
 - Normalizes everything into a schema-versioned JSON report, with a precomputed `agent_prompt` field so an AI agent can act on it without parsing the raw output
 - Ships an MCP server (`mustel serve`) exposing `review`, `review_file`, `env`, and `check_package` tools for direct IDE and agent integration
 - Benchmarked at 100% recall across 14 planted bugs in 4 test projects, 0 false positives on a clean baseline
@@ -113,9 +125,10 @@ Flask app for image compression, resizing, and image-to-PDF merging, all done in
 
 A free course and certification aggregator I founded and grew from scratch. It manually vets free courses and certifications from providers like Google, Harvard, IBM, Cisco, and freeCodeCamp, and runs interactive in-browser learning spaces (including a Python zero-to-production track with live code execution) plus instant Python and web compilers, so people can learn without wading through paywalled content.
 
-- 90,000+ lifetime visits, 1,000+ LinkedIn followers
-- 117+ certifications listed, all manually reviewed
-- Built and SEO-optimized from scratch, zero paid promotion
+- 100,000+ lifetime visits, 1,000+ LinkedIn followers
+- 260+ editorially vetted courses across 90+ institution hubs
+- 4-Axis Editorial Audit Rubric & technical research engine *The Print*
+- Built and SEO-optimized from scratch with SSG across 185 pre-rendered pages, zero paid promotion
 
 <br/>
 
@@ -123,15 +136,15 @@ A free course and certification aggregator I founded and grew from scratch. It m
 
 <br/>
 
-**AI Systems Evaluation Intern · AirDawg Labs** &nbsp;`Jun 2026 – Present`
+**AI Systems Evaluation Intern · AirDawg Labs** &nbsp;`Jun 2026 – Aug 2026`
 
-Working on Project Terminus-2nd-Edition by Snorkel AI. Reviews AI coding agent benchmark tasks for instruction clarity, test alignment, rubric quality, metadata correctness, Docker/base image compliance, and solution leakage risks. Evaluates full task submissions by inspecting task environments, verifier reports, Dockerfiles, `task.toml`, and oracle solutions before making Accept / Needs Revision decisions. Also contributed as a task submitter before moving to the reviewer side. Ubuntu / WSL, Docker, Python.
+Worked on Project Terminus-2nd-Edition by Snorkel AI. Evaluated AI coding agent benchmark tasks for instruction clarity, test alignment, rubric quality, metadata correctness, Docker/base image compliance, and solution leakage risks. Evaluated full task submissions by inspecting task environments, verifier reports, Dockerfiles, `task.toml`, and oracle solutions before making Accept / Needs Revision decisions. Also contributed as a task submitter before moving to the reviewer side. Ubuntu / WSL, Docker, Python.
 
 **Software Intern · TCET Centre of Excellence** &nbsp;`May 2026 – Present`
 
-Contributing to a Next.js web portal for AI literacy training. Building Python-based internal automation tools.
+Contributing to a Next.js web portal for AI literacy training for college professors. Managing releases, version control, and deployment pipelines. Built Next.js routes and internal Python CLI tools for code verification.
 
-**Research Analyst → Associate Data Analyst · CoreLayer Labs (Review.AI)** &nbsp;`Oct 2024 – Feb 2025`
+**Research Analyst → Data Analyst Intern · CoreLayer Labs (Review.AI)** &nbsp;`Oct 2025 – Feb 2026`
 
 Built an LLM-powered product-page scraper cutting manual review time by 75%. Built a real-time Streamlit dashboard integrated with Google Sheets for team workload tracking. Researched and documented 50+ AI tools.
 
@@ -162,3 +175,4 @@ Built an LLM-powered product-page scraper cutting manual review time by 75%. Bui
 *Mumbai · open to opportunities*
 
 </div>
+```
