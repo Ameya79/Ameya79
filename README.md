@@ -6,7 +6,7 @@
 
 # Ameya Kulkarni
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=8B9EC7&center=true&vCenter=true&width=520&lines=Python+Developer+%26+Open-Source+Builder;Maintainer+%40+Mustel+%C2%B7+5%2C000%2B+PyPI+Downloads;AI+Systems+Evaluation+%40+AirDawg+Labs;TCET+Information+Technology+%2728)](https://github.com/Ameya79)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=8B9EC7&center=true&vCenter=true&width=520&lines=Python+Developer+%26+Open-Source+Builder;Maintainer+%40+Mustel+%C2%B7+5%2C500%2B+PyPI+Downloads;AI+Systems+Evaluation+%40+AirDawg+Labs;TCET+Information+Technology+%2728)](https://github.com/Ameya79)
 
 <br/>
 
@@ -23,16 +23,16 @@
 <br/>
 
 ```
-currently: building in public, shipping real tools, software intern @ TCET CoE
+currently: building in public, shipping tools that do exactly what the README says
 ```
 
 <br/>
 
 ## what's going on
 
-- Building a Next.js AI Literacy Portal at TCET Centre of Excellence and internal automation tools in Python (May 2026 – Present)
+- Shipped **[Talanton](https://talanton-py.vercel.app)**, a local-first Python library that sets automatic spending limits on AI API calls, live on PyPI
 - Evaluated AI coding agent benchmark tasks for OpenAI & Anthropic models on Project Terminus-2nd-Edition by Snorkel AI at AirDawg Labs (Jun 2026 – Aug 2026)
-- Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI and MCP server with 5,000+ PyPI downloads
+- Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI and MCP server, now past 5,500+ PyPI downloads
 - Founded **[The Free University](https://thefreeuniversity.space)** with 100,000+ lifetime visits and 1,000+ LinkedIn followers
 
 <br/>
@@ -41,7 +41,31 @@ currently: building in public, shipping real tools, software intern @ TCET CoE
 
 <br/>
 
+### [Talanton](https://talanton-py.vercel.app) · `pip install talanton-py` · [PyPI](https://pypi.org/project/talanton-py) · [repo](https://github.com/Ameya79/Talanton)
+
+*The honest scale for AI spend, weighing the cost before the call, not after.*
+
+Local-first Python library that puts a real spending limit on AI API calls, checked before the request is sent, not logged after.
+
+[![Python](https://img.shields.io/badge/Python_3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![PyPI](https://img.shields.io/pypi/v/talanton-py?style=flat-square&color=3775A9)](https://pypi.org/project/talanton-py)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/Ameya79/Talanton/blob/main/LICENSE)
+
+- Pre-flight token metrology using each provider's real tokenizer plus chat-template overhead accounting, exact cost computed before a call goes out across 60+ models on OpenAI, Anthropic, and open-weight providers
+- `BudgetGuard` intercepts every call with hard and soft dollar limits, raising `HardBudgetExceededError` and halting the request in under 2ms if a threshold is breached
+- One-line wrappers (`wrap_openai`) plus integrations for LangChain, LangGraph, FastAPI, and LiteLLM Gateway
+- 100% local: every call logged to an embedded SQLite database, zero prompts or completions ever leave the machine
+- Benchmarked at 24,586 calls/sec with zero lock errors across 25 concurrent threads, ~310 bytes stored per call
+
+```bash
+talanton cost "Analyze this" --model gpt-4o -o 500   # exact dollar cost before you send it
+```
+
+<br/>
+
 ### [Mustel](https://mustel.vercel.app) · `pip install mustel` · [PyPI](https://pypi.org/project/mustel) · [repo](https://github.com/mustel-py/mustel)
+
+*A second pair of eyes for your AI coding agent, one that never hallucinates a finding.*
 
 Non-AI static analysis layer for AI coding agents (Cursor, Claude Code, Windsurf). Deterministic scanning, no model calls, no hallucinated findings.
 
@@ -53,6 +77,7 @@ Non-AI static analysis layer for AI coding agents (Cursor, Claude Code, Windsurf
 - Normalizes everything into a schema-versioned JSON report, with a precomputed `agent_prompt` field so an AI agent can act on it without parsing the raw output
 - Ships an MCP server (`mustel serve`) exposing `review`, `review_file`, `env`, and `check_package` tools for direct IDE and agent integration
 - Benchmarked at 100% recall across 14 planted bugs in 4 test projects, 0 false positives on a clean baseline
+- Past 5,500+ PyPI downloads and counting
 
 ```bash
 mustel review        # scan current directory, outputs JSON
@@ -62,6 +87,8 @@ mustel serve          # run as an MCP server for AI IDEs
 <br/>
 
 ### [Driftwood](https://driftwood-docs.vercel.app/docs) · [repo](https://github.com/Ameya79/Driftwood)
+
+*1,000 possible futures for a stock price, computed before your coffee finishes brewing.*
 
 Stateless Monte Carlo simulation API for stock price paths, built on Geometric Brownian Motion (GBM).
 
@@ -75,10 +102,13 @@ Stateless Monte Carlo simulation API for stock price paths, built on Geometric B
 - Returns p10/p50/p90 percentile price envelopes along with annualized volatility and probability-of-profit
 - Rate limited at both the Nginx layer (20 r/s, burst 30) and the app layer (100 requests per 5s per IP)
 - Full stack runs via Docker Compose: FastAPI backend, Next.js frontend, Nginx reverse proxy
+- 700+ simulations run to date
 
 <br/>
 
 ### [rollit](https://rollit-website.vercel.app) · `pip install rollit` · [repo](https://github.com/Ameya79/rollit) · [PyPI](https://pypi.org/project/rollit/)
+
+*Rolling stats for NumPy arrays, without dragging pandas along for the ride.*
 
 Rolling window statistics for NumPy arrays, without pulling in pandas.
 
@@ -90,11 +120,13 @@ Rolling window statistics for NumPy arrays, without pulling in pandas.
 - `mean`, `std`, `sum`, `min`, `max`, `zscore`, `normalize`, `apply`, all under one consistent function signature
 - Uses `numpy.lib.stride_tricks.as_strided` for zero-copy windowing, and locks the returned views read-only to avoid segfault-prone manual stride math
 - Supports `min_periods` to mask incomplete windows instead of failing on them
-- 700+ monthly PyPI downloads, CI on every push via GitHub Actions
+- 1,500+ PyPI downloads, CI on every push via GitHub Actions
 
 <br/>
 
 ### [Squeezy](https://squeezy-image-compressor.onrender.com) · [repo](https://github.com/Ameya79/Squeezy-Image-Compressor)
+
+*Compresses your images, then forgets it ever met them.*
 
 Flask app for image compression, resizing, and image-to-PDF merging, all done in memory.
 
@@ -110,6 +142,8 @@ Flask app for image compression, resizing, and image-to-PDF merging, all done in
 <br/>
 
 ### [The Free University](https://thefreeuniversity.space)
+
+*Learning, minus the paywall and the parts nobody asked for.*
 
 A free course and certification aggregator I founded and grew from scratch. It manually vets free courses and certifications from providers like Google, Harvard, IBM, Cisco, and freeCodeCamp, and runs interactive in-browser learning spaces (including a Python zero-to-production track with live code execution) plus instant Python and web compilers, so people can learn without wading through paywalled content.
 
@@ -127,10 +161,6 @@ A free course and certification aggregator I founded and grew from scratch. It m
 **AI Systems Evaluation Intern · AirDawg Labs** &nbsp;`Jun 2026 – Aug 2026`
 
 Worked on Project Terminus-2nd-Edition by Snorkel AI. Evaluated AI coding agent benchmark tasks for instruction clarity, test alignment, rubric quality, metadata correctness, Docker/base image compliance, and solution leakage risks. Evaluated full task submissions by inspecting task environments, verifier reports, Dockerfiles, `task.toml`, and oracle solutions before making Accept / Needs Revision decisions. Also contributed as a task submitter before moving to the reviewer side. Ubuntu / WSL, Docker, Python.
-
-**Software Intern · TCET Centre of Excellence** &nbsp;`May 2026 – Present`
-
-Contributing to a Next.js web portal for AI literacy training for college professors. Managing releases, version control, and deployment pipelines. Built Next.js routes and internal Python CLI tools for code verification.
 
 **Research Analyst → Data Analyst Intern · CoreLayer Labs (Review.AI)** &nbsp;`Oct 2025 – Feb 2026`
 
