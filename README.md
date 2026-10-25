@@ -17,6 +17,8 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ameyakulkarnialt@gmail.com)
 &nbsp;
 [![The Free University](https://img.shields.io/badge/The_Free_University-000000?style=flat-square&logo=vercel&logoColor=white)](https://thefreeuniversity.space)
+&nbsp;
+[![Benchtop Labs](https://img.shields.io/badge/Benchtop_Labs-FF6B14?style=flat-square&logo=vercel&logoColor=white)](https://benchtoplabs.vercel.app)
 
 </div>
 
@@ -30,14 +32,39 @@ currently: building in public, shipping tools that do exactly what the README sa
 
 ## what's going on
 
+- Founded **[Benchtop Labs](https://benchtoplabs.vercel.app)**, an open verification registry and quality benchmark for independent developer tools with an automated 6-point isolated sandbox test spec
+- Shipped **[Cuttle](https://github.com/Ameya79/cuttle)** ([website](https://cuttle-website-gamma.vercel.app/)), a 100% offline right-click file converter utility for Windows Explorer with sub-20ms startup and zero data uploads
 - Shipped **[Talanton](https://talanton-py.vercel.app)**, a local-first Python library that sets automatic spending limits on AI API calls, live on PyPI
-- Evaluated AI coding agent benchmark tasks for OpenAI & Anthropic models on Project Terminus-2nd-Edition by Snorkel AI at AirDawg Labs (Jun 2026 – Aug 2026)
+- Evaluated AI coding agent benchmark tasks for OpenAI & Anthropic models on Project Terminus-2nd-Edition by Snorkel AI at AirDawg Labs (Jun 2026 - Aug 2026)
 - Maintaining **[Mustel](https://pypi.org/project/mustel)**, a Python CLI and MCP server, now past 5,500+ PyPI downloads
 - Founded **[The Free University](https://thefreeuniversity.space)** with 100,000+ lifetime visits and 1,000+ LinkedIn followers
 
 <br/>
 
 ## featured work
+
+<br/>
+
+### [Benchtop Labs](https://benchtoplabs.vercel.app) · [repo](https://github.com/Ameya79/benchtoplabs-registry) · [spec](https://github.com/Ameya79/benchtoplabs-registry/blob/main/BENCH_SPEC.md)
+
+*Where useful open source lives. An automated verification registry for high-craft developer tools.*
+
+An open quality standard and automated registry that tests independent developer tools in isolated sandboxes before featuring them, replacing popularity contests with objective technical verification.
+
+[![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/Ameya79/benchtoplabs-registry/blob/main/LICENSE)
+[![Verification](https://img.shields.io/badge/BENCH_SPEC-v1.0-FF6B14?style=flat-square)](https://benchtoplabs.vercel.app)
+
+- Automated 6-point sandbox verification: checks architectural documentation, OSI license metadata, semantic releases, 365-day commit activity, clean ephemeral container installs, and green CI
+- Strict binary evaluation: zero paid placements, no sponsored bypasses, and no partial credit
+- Dynamic spec tag generation with auto-updating SVG badges and edge-cached JSON/Markdown metadata manifests for AI agents (`/llms.txt` and `/api/projects`)
+- 5 verified founding tools (Rollit, Talanton, Mustel, Cuttle, Driftwood) with 22,000+ cumulative developer installs
+
+```bash
+# Inspect all verified tools via the open agent API
+curl -s https://benchtoplabs.vercel.app/api/projects?format=md
+```
 
 <br/>
 
@@ -82,6 +109,30 @@ Non-AI static analysis layer for AI coding agents (Cursor, Claude Code, Windsurf
 ```bash
 mustel review        # scan current directory, outputs JSON
 mustel serve          # run as an MCP server for AI IDEs
+```
+
+<br/>
+
+### [Cuttle](https://cuttle-website-gamma.vercel.app/) · [repo](https://github.com/Ameya79/cuttle) · [installer](https://github.com/Ameya79/cuttle/releases/latest)
+
+*Right-click any file in Windows Explorer, pick the format you want, and get a converted copy instantly.*
+
+100% offline native Windows desktop utility that converts documents, images, video, and audio directly from the File Explorer context menu without uploading bytes to third-party servers.
+
+[![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![Platform](https://img.shields.io/badge/Platform-Windows_10_%7C_11-0078d4?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)](https://github.com/Ameya79/cuttle/blob/main/LICENSE)
+[![Tests](https://img.shields.io/badge/Tests-393_passing-success?style=flat-square)](https://github.com/Ameya79/cuttle)
+
+- Sub-20ms launcher communicates via Windows Named Pipes (`\\.\pipe\cuttle-<user>`) with a persistent background Qt worker daemon in the System Tray
+- Sacred originals guarantee: source files are never altered, deleted, or overwritten; conflicting target names auto-increment collision-free
+- 300ms debouncer bundles multi-file selections into batch conversion queues bounded to half available CPU cores
+- Frameless floating progress card with live cancellation and interactive Windows toast notifications (`[Open File]`, `[Show in Folder]`)
+- Multi-engine architecture across PyMuPDF, pdf2docx, Pandoc, Pillow, LibreOffice, and FFmpeg with clear quality guarantees (Lossless, Lossy, Best Effort)
+
+```powershell
+# One-click portable installer
+curl -sLO https://github.com/Ameya79/cuttle/releases/latest/download/Cuttle-Setup-x64.exe
 ```
 
 <br/>
@@ -158,11 +209,11 @@ A free course and certification aggregator I founded and grew from scratch. It m
 
 <br/>
 
-**AI Systems Evaluation Intern · AirDawg Labs** &nbsp;`Jun 2026 – Aug 2026`
+**AI Systems Evaluation Intern · AirDawg Labs** &nbsp;`Jun 2026 - Aug 2026`
 
 Worked on Project Terminus-2nd-Edition by Snorkel AI. Evaluated AI coding agent benchmark tasks for instruction clarity, test alignment, rubric quality, metadata correctness, Docker/base image compliance, and solution leakage risks. Evaluated full task submissions by inspecting task environments, verifier reports, Dockerfiles, `task.toml`, and oracle solutions before making Accept / Needs Revision decisions. Also contributed as a task submitter before moving to the reviewer side. Ubuntu / WSL, Docker, Python.
 
-**Research Analyst → Data Analyst Intern · CoreLayer Labs (Review.AI)** &nbsp;`Oct 2025 – Feb 2026`
+**Research Analyst → Data Analyst Intern · CoreLayer Labs (Review.AI)** &nbsp;`Oct 2025 - Feb 2026`
 
 Built an LLM-powered product-page scraper cutting manual review time by 75%. Built a real-time Streamlit dashboard integrated with Google Sheets for team workload tracking. Researched and documented 50+ AI tools.
 
