@@ -209,7 +209,7 @@ A free course and certification aggregator I founded and grew from scratch. It m
 
 <br/>
 
-**AI Systems Evaluation Intern · AirDawg Labs** &nbsp;`Jun 2026 - Aug 2026`
+**AI Systems Evaluation Intern · CaudalAI (AirDawg Labs)** &nbsp;`Jun 2026 - Aug 2026`
 
 Worked on Project Terminus-2nd-Edition by Snorkel AI. Evaluated AI coding agent benchmark tasks for instruction clarity, test alignment, rubric quality, metadata correctness, Docker/base image compliance, and solution leakage risks. Evaluated full task submissions by inspecting task environments, verifier reports, Dockerfiles, `task.toml`, and oracle solutions before making Accept / Needs Revision decisions. Also contributed as a task submitter before moving to the reviewer side. Ubuntu / WSL, Docker, Python.
 
