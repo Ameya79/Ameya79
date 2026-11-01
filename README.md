@@ -223,6 +223,12 @@ Built an LLM-powered product-page scraper cutting manual review time by 75%. Bui
 
 <div align="center">
 
+<img src="koi/koi.gif" width="260" alt="Ameya's daily koi" />
+<br/>
+<sub><i>daily koi · colors reflect languages · size reflects contributions · swimming reflects yesterday's commits</i></sub>
+
+<br/><br/>
+
 <img src="https://streak-stats.demolab.com?user=Ameya79&theme=tokyonight&hide_border=true&fire=8B9EC7&currStreakLabel=8B9EC7" height="160" alt="github streak stats" />
 
 <br/><br/>
