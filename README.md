@@ -33,6 +33,7 @@ currently: building in public, shipping tools that do exactly what the README sa
 ## what's going on
 
 - Founded **[Benchtop Labs](https://benchtoplabs.vercel.app)**, an open verification registry and quality benchmark for independent developer tools with an automated 6-point isolated sandbox test spec
+- Shipped **[galeus](https://galeus.vercel.app)** ([repo](https://github.com/Ameya79/galeus)), a local-first Canva certificate automation workstation that cuts end-to-end generation and email dispatch turnaround by 90%+ with mathematical typo invariant enforcement
 - Shipped **[Cuttle](https://github.com/Ameya79/cuttle)** ([website](https://cuttle-website-gamma.vercel.app/)), a 100% offline right-click file converter utility for Windows Explorer with sub-20ms startup and zero data uploads
 - Shipped **[Talanton](https://talanton-py.vercel.app)**, a local-first Python library that sets automatic spending limits on AI API calls, live on PyPI
 - Evaluated AI coding agent benchmark tasks for OpenAI & Anthropic models on Project Terminus-2nd-Edition by Snorkel AI at AirDawg Labs (Jun 2026 - Aug 2026)
@@ -59,7 +60,7 @@ An open quality standard and automated registry that tests independent developer
 - Automated 6-point sandbox verification: checks architectural documentation, OSI license metadata, semantic releases, 365-day commit activity, clean ephemeral container installs, and green CI
 - Strict binary evaluation: zero paid placements, no sponsored bypasses, and no partial credit
 - Dynamic spec tag generation with auto-updating SVG badges and edge-cached JSON/Markdown metadata manifests for AI agents (`/llms.txt` and `/api/projects`)
-- 5 verified founding tools (Rollit, Talanton, Mustel, Cuttle, Driftwood) with 22,000+ cumulative developer installs
+- 6 verified founding tools (Rollit, Talanton, Mustel, Cuttle, Driftwood, Galeus) with 22,000+ cumulative developer installs
 
 ```bash
 # Inspect all verified tools via the open agent API
@@ -133,6 +134,32 @@ mustel serve          # run as an MCP server for AI IDEs
 ```powershell
 # One-click portable installer
 curl -sLO https://github.com/Ameya79/cuttle/releases/latest/download/Cuttle-Setup-x64.exe
+```
+
+<br/>
+
+### [galeus](https://galeus.vercel.app) · [repo](https://github.com/Ameya79/galeus) · [spec](https://benchtoplabs.vercel.app/p/galeus)
+
+*One Canva template. One messy sheet. Zero mistakes.*
+
+Local-first, zero-hallucination certificate workstation that turns a single-page Canva PDF and raw attendee roster into verified, sub-pixel auto-fitted certificates with throttled SMTP dispatch.
+
+[![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![PyMuPDF](https://img.shields.io/badge/PyMuPDF-FitZ-blue?style=flat-square)](https://pymupdf.readthedocs.io/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/Ameya79/galeus/blob/main/LICENSE)
+[![Benchtop Labs](https://img.shields.io/badge/BENCH_SPEC-v1.0-FF6B14?style=flat-square)](https://benchtoplabs.vercel.app/p/galeus)
+
+- **90%+ Turnaround Compression**: Slashes end-to-end certificate generation and verified email distribution turnaround time by over 90%—reducing what traditionally takes 3–5 hours of error-prone manual Canva copy-pasting, visual realignment, PDF exporting, and individual emailing down to under 3 minutes for 500+ attendees
+- **Mathematical Typo Invariant Guarantee**: AI models format names and handle honorifics, but code-level Python assertions enforce strict alphanumeric character conservation ($\text{norm}(\text{raw}) == \text{norm}(\text{clean})$)—letters cannot be hallucinated, omitted, or rearranged
+- **Sub-Pixel Canva Auto-Fit Engine**: Ingests Canva vector PDF blueprints, locates placeholder tokens (`AGENT`), calculates bounding boxes via PyMuPDF, and dynamically scales down font sizes or auto-wraps long names to prevent clipping or layout deformation
+- **100% On-Device & Zero Footprint**: Operates entirely on local hardware (`docker compose up --build`), stores ephemeral job data in `data/jobs/` with 24-hour auto-purging, holds mail server credentials strictly in memory during active dispatch, and runs with zero external databases or tracking telemetry
+- **Verified Batch Pipeline**: Cryptographic SHA-256 batch sealing, crash-proof progress logging, live pause/resume dispatch controls, and ZIP audit archiving backed by 114 passing unit and integration tests and a 6/6 green Benchtop Labs scorecard
+
+```bash
+# Launch full-stack workstation locally (FastAPI API + Next.js Studio)
+git clone https://github.com/Ameya79/galeus.git && cd galeus && docker compose up --build
 ```
 
 <br/>
