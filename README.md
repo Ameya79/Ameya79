@@ -6,6 +6,7 @@
 
 # Ameya Kulkarni
 
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=8B9EC7&center=true&vCenter=true&width=520&lines=Python+Developer+%26+Open-Source+Builder;Maintainer+%40+Mustel+%C2%B7+5%2C500%2B+PyPI+Downloads;AI+Systems+Evaluation+%40+AirDawg+Labs;TCET+Information+Technology+%2728)](https://github.com/Ameya79)
 
 <br/>
