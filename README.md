@@ -61,7 +61,7 @@ An open quality standard and automated registry that tests independent developer
 - Automated 6-point sandbox verification: checks architectural documentation, OSI license metadata, semantic releases, 365-day commit activity, clean ephemeral container installs, and green CI
 - Strict binary evaluation: zero paid placements, no sponsored bypasses, and no partial credit
 - Dynamic spec tag generation with auto-updating SVG badges and edge-cached JSON/Markdown metadata manifests for AI agents (`/llms.txt` and `/api/projects`)
-- 6 verified founding tools (Rollit, Talanton, Mustel, Cuttle, Driftwood, Galeus) with 22,000+ cumulative developer installs
+- 6 verified founding tools (Rollit, Talanton, Mustel, Cuttle, Driftwood, Galeus) with 10k+ cumulative developer installs
 
 ```bash
 # Inspect all verified tools via the open agent API
